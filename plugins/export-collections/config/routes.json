@@ -1,0 +1,21 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/orders",
+      "handler": "export-collections.exportOrders",
+      "config": {
+        "policies": []
+      }
+    },
+
+    {
+      "method": "POST",
+      "path": "/products",
+      "handler": "export-collections.exportProducts",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
